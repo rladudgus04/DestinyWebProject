@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hunter-icon{
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    transform: rotate();
+}
+
+#bgi{
+    position: absolute;
+    object-fit: cover;
+    z-index: -3;
+}
+
+.imgs{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
+}
+
+#item1{
+    width: 25%;
+    height: 600px;
+    margin: 35px;
+    box-shadow: 0 0 40px #000;
+    transition: 0.3s;
+}
+
+#item1:hover{
+    box-shadow: 0 0 60px #000;
+    margin-bottom: 50px;
+}
+
+
+#item2{
+    width: 25%;
+    height: 600px;
+    margin: 35px;
+    box-shadow: 0 0 40px #000;
+    transition: 0.3s;
+}
+#item2:hover{
+    box-shadow: 0 0 60px #000;
+    margin-bottom: 50px;
+}
+
+#item3{
+    width: 25%;
+    height: 600px;
+    margin: 35px;
+    box-shadow: 0 0 40px #000;
+    transition: 0.3s;
+}
+#item3:hover{
+    box-shadow: 0 0 60px #000;
+    margin-bottom: 50px;
+}
